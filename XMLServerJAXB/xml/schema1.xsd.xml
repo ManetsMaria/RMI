@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <lastName>ghht</lastName>
+        <group>5</group>
+        <exams>
+            <exam>
+                <mark>8.0</mark>
+                <subject>dhfjhgj</subject>
+            </exam>
+            <exam>
+                <mark>2.0</mark>
+                <subject>yrt</subject>
+            </exam>
+            <exam>
+                <mark>8.0</mark>
+                <subject>ghfh</subject>
+            </exam>
+        </exams>
+    </student>
+    <student>
+        <lastName>sedfgh</lastName>
+        <group>8</group>
+        <exams>
+            <exam>
+                <mark>5.0</mark>
+                <subject>fghj</subject>
+            </exam>
+            <exam>
+                <mark>0.0</mark>
+                <subject>esdrtfg</subject>
+            </exam>
+            <exam>
+                <mark>4.0</mark>
+                <subject>dfg</subject>
+            </exam>
+        </exams>
+    </student>
+</students>

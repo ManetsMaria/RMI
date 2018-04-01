@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><stud:students xmlns:stud="http://www.example.com/student"> 
+	<student>
+		<last-name>Student1</last-name>
+		<group>3</group>
+<exams>
+<exam>
+		<mark>6.0</mark>
+		<subject>Math</subject>
+</exam>
+</exams>
+</student>	<student>
+		<last-name>Student 2</last-name>
+		<group>2</group>
+<exams>
+<exam>
+		<mark>8.0</mark>
+		<subject>Math</subject>
+</exam>
+<exam>
+		<mark>3.0</mark>
+		<subject>Ghtr</subject>
+</exam>
+</exams>
+</student>	<student>
+		<last-name>sdfghj</last-name>
+		<group>8</group>
+<exams>
+<exam>
+		<mark>9.0</mark>
+		<subject>dfghj</subject>
+</exam>
+<exam>
+		<mark>6.0</mark>
+		<subject>sdfgh</subject>
+</exam>
+<exam>
+		<mark>3.0</mark>
+		<subject>sdefg</subject>
+</exam>
+<exam>
+		<mark>8.0</mark>
+		<subject>dfgh</subject>
+</exam>
+</exams>
+</student>	<student>
+		<last-name>sdfgh</last-name>
+		<group>8</group>
+<exams>
+<exam>
+		<mark>2.0</mark>
+		<subject>gfyu</subject>
+</exam>
+</exams>
+</student></stud:students>

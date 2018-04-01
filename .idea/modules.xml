@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BSU_20180227.iml" filepath="$PROJECT_DIR$/BSU_20180227.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLServer/SQLServer.iml" filepath="$PROJECT_DIR$/SQLServer/SQLServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLServer/XMLServer.iml" filepath="$PROJECT_DIR$/XMLServer/XMLServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLServerJAXB/XMLServerJAXB.iml" filepath="$PROJECT_DIR$/XMLServerJAXB/XMLServerJAXB.iml" />
+    </modules>
+  </component>
+</project>

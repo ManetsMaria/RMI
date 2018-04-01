@@ -1,0 +1,34 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="1000.0"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+    <children>
+        <!-- Таблица в которую мы будем выводит наш pojo -->
+        <TableView fx:id="tableStudents" layoutX="12.0" layoutY="62.0" prefHeight="324.0" prefWidth="1000.0">
+            <columns>
+                <!-- Колонки таблицы -->
+                <TableColumn prefWidth="150.0" text="Last Name" fx:id="lastNameColumn" />
+                <TableColumn prefWidth="55.0" text="Group" fx:id="groupNumberColumn" />
+                <TableColumn prefWidth="800.0" text="Marks" fx:id="marksColumn" />
+            </columns>
+        </TableView>
+        <Label layoutX="14.0" layoutY="18.0" text="Students:">
+            <font>
+                <Font name="Verdana" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonAdd" layoutX="50.0" layoutY="400.0" mnemonicParsing="false" onAction="#addStudent"
+                prefHeight="30.0" prefWidth="150.0" text="Add student"/>
+        <Button fx:id="buttonDelete" layoutX="250.0" layoutY="400.0" mnemonicParsing="false" onAction="#deleteStudent"
+                prefHeight="30.0" prefWidth="150.0" text="Delet all students"/>
+        <Button fx:id="buttonJoin" layoutX="450.0" layoutY="400.0" mnemonicParsing="false" onAction="#joinStudent"
+                prefHeight="30.0" prefWidth="150.0" text="Join students"/>
+        <Button fx:id="buttonDeleteStudent" layoutX="650.0" layoutY="400.0" mnemonicParsing="false" onAction="#deleteOneStudent"
+                prefHeight="30.0" prefWidth="150.0" text="Delete one student"/>
+    </children>
+</AnchorPane>

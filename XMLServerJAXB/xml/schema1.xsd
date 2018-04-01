@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="students" type="students"/>
+
+  <xs:complexType name="students">
+    <xs:sequence>
+      <xs:element name="student" type="student" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="student">
+    <xs:sequence>
+      <xs:element name="lastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="group" type="xs:int"/>
+      <xs:element name="exams" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="exam" type="exam" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="exam">
+    <xs:sequence>
+      <xs:element name="mark" type="xs:double"/>
+      <xs:element name="subject" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

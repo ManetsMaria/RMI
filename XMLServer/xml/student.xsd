@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/student"
+        xmlns:tns="http://www.example.com/student">
+    <!--xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:Old-Cards="urn:student"
+        targetNamespace="urn:student"
+        elementFormDefault="qualified" -->
+    <element name="students">
+        <complexType>
+            <sequence>
+                <element name="student"
+                         type="tns:Student" minOccurs="0" maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="Student">
+        <sequence>
+            <element name="last-name" type="string" />
+            <element name="group" type="int" />
+            <element name="exams" type="tns:Exams"></element>
+        </sequence>
+        <attribute name="id" type="int" use = "optional"></attribute>
+    </complexType>
+    <complexType name="Exams">
+        <sequence>
+            <element name="exam" type="tns:Exam" minOccurs="1" maxOccurs="unbounded"></element>
+        </sequence>
+    </complexType>
+    <complexType name="Exam">
+        <sequence>
+            <element name="mark" type="double" />
+            <element name="subject" type="string" />
+        </sequence>
+    </complexType>
+</schema>
